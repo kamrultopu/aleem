@@ -1,8 +1,8 @@
 var config = {
-	entry: './src/client/scripts/main.js',
+	entry: './src/client/main.js',
 
 	output: {
-		path:'./',
+		path: './',
 		filename: 'index.js',
 	},
 
@@ -22,9 +22,9 @@ var config = {
 					presets: ['es2015','react']
 				}
 			}
-			
 		]
 	}
+
 }
 
 module.exports = config;
