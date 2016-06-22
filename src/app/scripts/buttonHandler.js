@@ -1,0 +1,3 @@
+function logButtonHandler(){
+	alert("hi")
+}
